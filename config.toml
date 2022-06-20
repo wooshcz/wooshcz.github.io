@@ -1,5 +1,0 @@
-baseURL = "https://moravek.me/"
-languageCode = "en-us"
-title = "moravek.me"
-theme = "PaperMod"
-publishdir = "docs"

@@ -1,0 +1,29 @@
+baseURL: "https://moravek.me/"
+languageCode: "en-us"
+title: "moravek.me"
+theme: "PaperMod"
+publishdir: "docs"
+enableInlineShortcodes: true
+enableRobotsTXT: true
+enableEmoji: true
+
+params:
+  profileMode:
+    enabled: true
+    title: "moravek.me" # optional default will be site title
+    subtitle: "This is my site, that's about it"
+    # imageUrl: "<image link>" # optional
+    # imageTitle: "<title of image as alt>" # optional
+    # imageWidth: 120 # custom size
+    # imageHeight: 120 # custom size
+    buttons:
+      - name: Posts
+        url: "/posts"
+      - name: Android Apps
+        url: "/android"
+
+  socialIcons: # optional
+    - name: twitter
+      url: "https://twitter.com/OndrejMoravek"
+    - name: github
+      url: "https://github.com/wooshcz"
