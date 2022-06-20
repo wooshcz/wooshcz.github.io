@@ -27,3 +27,5 @@ params:
       url: "https://twitter.com/OndrejMoravek"
     - name: github
       url: "https://github.com/wooshcz"
+    - name: rss
+      url: "/index.xml"
