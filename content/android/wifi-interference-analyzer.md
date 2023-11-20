@@ -20,4 +20,10 @@ draft: false
 - Change Wireless State permission is used to perform the scanning and turn on the WiFi if it's switched off
 - The app will keep the screen on during periodical scanning or during recording
 
+## Privacy Policy
+This app does not collect or share any information on how you use the app or what information you enter. The application does not communicate over the network. It is only capable of monitoring the WiFi networks nearby and display useful information about them.
+
+## Source Code
+The source code is available at [github.com/wooshcz/wifi-interference-analyzer](https://github.com/wooshcz/wifi-interference-analyzer)
+
 [Link to Google Play Store](https://play.google.com/store/apps/details?id=com.woosh.wirelesscoverage)
