@@ -19,12 +19,12 @@ params:
     buttons:
       - name: Posts
         url: "/posts"
-      - name: Android Apps
-        url: "/android"
+      # - name: Android Apps
+      #   url: "/android"
 
   socialIcons: # optional
-    - name: twitter
-      url: "https://twitter.com/OndrejMoravek"
+    - name: mastodon
+      url: "https://social.linux.pizza/@woosh"
     - name: github
       url: "https://github.com/wooshcz"
     - name: rss

@@ -4,7 +4,8 @@
     <title>Categories on moravek.me</title>
     <link>https://moravek.me/categories/</link>
     <description>Recent content in Categories on moravek.me</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://moravek.me/categories/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.138.0</generator>
+    <language>en-us</language>
+    <atom:link href="https://moravek.me/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

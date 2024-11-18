@@ -4,27 +4,43 @@
     <title>Androids on moravek.me</title>
     <link>https://moravek.me/android/</link>
     <description>Recent content in Androids on moravek.me</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.138.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Jun 2022 22:07:36 +0200</lastBuildDate><atom:link href="https://moravek.me/android/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Jun 2022 22:07:36 +0200</lastBuildDate>
+    <atom:link href="https://moravek.me/android/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Wifi Interference Analyzer</title>
       <link>https://moravek.me/android/wifi-interference-analyzer/</link>
       <pubDate>Mon, 20 Jun 2022 22:07:36 +0200</pubDate>
-      
       <guid>https://moravek.me/android/wifi-interference-analyzer/</guid>
-      <description>Features List of nearby wireless networks and their access points grouped by SSID Spectrum view with filtering option for better readability Marshmallow API that shows the real channel bandwidth (20/40/80/160/320 MHz) Quick switching between 2.4 GHz and 5 GHz band Specify the maximum usable channel for both bands given by local regulations Ability to recommend the most suitable channel for your network by recording number of samples and averaging the signal levels of neighboring networks Periodical scanning with configurable delay between scans and with screen kept on for easy monitoring Permissions Coarse Location is necessary on Android Marshmallow to perform WiFi scanning and get the network lists in your vicinity Change Wireless State permission is used to perform the scanning and turn on the WiFi if it&amp;rsquo;s switched off The app will keep the screen on during periodical scanning or during recording Privacy Policy This app does not collect or share any information on how you use the app or what information you enter.</description>
+      <description>&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;List of nearby wireless networks and their access points grouped by SSID&lt;/li&gt;
+&lt;li&gt;Spectrum view with filtering option for better readability&lt;/li&gt;
+&lt;li&gt;Marshmallow API that shows the real channel bandwidth (20/40/80/160/320 MHz)&lt;/li&gt;
+&lt;li&gt;Quick switching between 2.4 GHz and 5 GHz band&lt;/li&gt;
+&lt;li&gt;Specify the maximum usable channel for both bands given by local regulations&lt;/li&gt;
+&lt;li&gt;Ability to recommend the most suitable channel for your network by recording number of samples and averaging the signal levels of neighboring networks&lt;/li&gt;
+&lt;li&gt;Periodical scanning with configurable delay between scans and with screen kept on for easy monitoring&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;permissions&#34;&gt;Permissions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Coarse Location is necessary on Android Marshmallow to perform WiFi scanning and get the network lists in your vicinity&lt;/li&gt;
+&lt;li&gt;Change Wireless State permission is used to perform the scanning and turn on the WiFi if it&amp;rsquo;s switched off&lt;/li&gt;
+&lt;li&gt;The app will keep the screen on during periodical scanning or during recording&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;privacy-policy&#34;&gt;Privacy Policy&lt;/h2&gt;
+&lt;p&gt;This app does not collect or share any information on how you use the app or what information you enter. The application does not communicate over the network. It is only capable of monitoring the WiFi networks nearby and display useful information about them.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Wifi Auto Authenticator</title>
       <link>https://moravek.me/android/wifi-auto-authenticator/</link>
       <pubDate>Mon, 20 Jun 2022 22:07:17 +0200</pubDate>
-      
       <guid>https://moravek.me/android/wifi-auto-authenticator/</guid>
-      <description>Features This app simplifies and automates the login process on the Cisco Web Auth captive portal that is used on some WiFi networks. The app detects changes of the network connectivity and resolves the captive portal redirection on a selected WiFi network with an automatic login function.
-Rooted phones The app can automatically switch on/off mobile data on your phone during automatic login to bypass the built-in captive portal detection inside some versions of the Android OS.</description>
+      <description>&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;p&gt;This app simplifies and automates the login process on the Cisco Web Auth captive portal that is used on some WiFi networks. The app detects changes of the network connectivity and resolves the captive portal redirection on a selected WiFi network with an automatic login function.&lt;/p&gt;
+&lt;h2 id=&#34;rooted-phones&#34;&gt;Rooted phones&lt;/h2&gt;
+&lt;p&gt;The app can automatically switch on/off mobile data on your phone during automatic login to bypass the built-in captive portal detection inside some versions of the Android OS. There is also a manual toggle to turn the mobile data on and off.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
