@@ -27,5 +27,7 @@ params:
       url: "https://social.linux.pizza/@woosh"
     - name: github
       url: "https://github.com/wooshcz"
+    - name: strava
+      url: "https://www.strava.com/athletes/1651059"
     - name: rss
       url: "/index.xml"
