@@ -2,10 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://moravek.me/android/</loc>
-    <lastmod>2022-06-20T22:07:36+02:00</lastmod>
+    <loc>https://moravek.me/posts/laskakit-epaper-kit-with-home-assistant/</loc>
+    <lastmod>2025-02-05T20:56:48+01:00</lastmod>
   </url><url>
     <loc>https://moravek.me/</loc>
+    <lastmod>2025-02-05T20:56:48+01:00</lastmod>
+  </url><url>
+    <loc>https://moravek.me/posts/</loc>
+    <lastmod>2025-02-05T20:56:48+01:00</lastmod>
+  </url><url>
+    <loc>https://moravek.me/android/</loc>
     <lastmod>2022-06-20T22:07:36+02:00</lastmod>
   </url><url>
     <loc>https://moravek.me/android/wifi-interference-analyzer/</loc>
@@ -15,9 +21,6 @@
     <lastmod>2022-06-20T22:07:17+02:00</lastmod>
   </url><url>
     <loc>https://moravek.me/posts/my-first-post/</loc>
-    <lastmod>2022-02-11T21:50:50+01:00</lastmod>
-  </url><url>
-    <loc>https://moravek.me/posts/</loc>
     <lastmod>2022-02-11T21:50:50+01:00</lastmod>
   </url><url>
     <loc>https://moravek.me/categories/</loc>
