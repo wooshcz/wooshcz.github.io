@@ -67,4 +67,4 @@ The rest of the setup is pretty straightforward and you can just use the officia
 
 ## Final Result
 
-![LaskaKit connected showing data from Home Assistant](/images/laskakit-homeassistant.jpg)
+![LaskaKit connected showing data from Home Assistant](/images/laskakit-with-homeassistant.jpg)
