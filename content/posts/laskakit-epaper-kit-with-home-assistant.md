@@ -1,14 +1,14 @@
 ---
-title: "Laskakit E-Paper Kit With Home Assistant"
+title: "LaskaKit E-Paper Kit With Home Assistant"
 date: 2025-02-05T20:56:48+01:00
 draft: false
 ---
 
 This is just a note to future self on how I made the LaskaKit E-Paper Kit work with Home Assistant and ESPHome.
 
-Just a bit of context: The [kit](https://www.laskakit.cz/laskakit-live-7-5-e-paper-stavebnice-s-wifi-pro---zivy-obraz-/?variantId=13529) contains a e-Paper display and a custom ESP32-based board called ESPink which also comes pre-flashed with a custom firmware. You can build a code for this yourself and it's available in [GitHub](https://github.com/LaskaKit/ESPink). However I wasn't interested in running the board with this FW as I wanted to connect it with my local Home Assistant instance.
+Just a bit of context: The [kit](https://www.laskakit.cz/laskakit-live-7-5-e-paper-stavebnice-s-wifi-pro---zivy-obraz-/?variantId=13529) I got my hands on contains a E-Paper display and a custom ESP32-based board called ESPink which also comes pre-flashed with a custom firmware. You can build a firmware for this board yourself and the code is available in [GitHub](https://github.com/LaskaKit/ESPink). However I wasn't interested in running the board with this custom FW as I wanted to connect it with my local Home Assistant instance.
 
-The Kit comes with different display options, I got the 7.5 inch 800x480 screen from GoodDisplay with part number [GDEY075T7](https://www.good-display.com/product/396.html). It supports four levels of grey, but I am currently using it in BW mode, I'll get to that later.
+The Kit comes with different display options, I got the 7.5 inch 800x480 screen from GoodDisplay with part number [GDEY075T7](https://www.good-display.com/product/396.html). It supports four levels of grey, but I am currently using it in BW mode only, I'll get to that later.
 
 ## ESPHome Configuration
 
@@ -33,7 +33,7 @@ esp32:
     type: esp-idf
 ```
 
-I'll skip the other unrelated configuration options for `logger`, `ota` and so on and go straight to the most interesting bit, which is the configuration for the display component itself:
+I'll skip the other unrelated configuration options which are pretty much standard and so on and go straight to the most interesting bit, which is the configuration for the display component itself:
 
 ```yaml
 spi:
@@ -54,11 +54,11 @@ display:
     model: 7.50inv2
 ```
 
-I found the pin numbers for this board in the product listing on the [LaskaKit shop](https://www.laskakit.cz/laskakit-espink-esp32-e-paper-pcb-antenna/?variantId=12419). Another piece to the puzzle was to be found in the Waveshare E-Paper Component page where in a big red warning box yoi can find:
+I found the relevant pin numbers for this board in the product listing of ESPink on the [LaskaKit shop](https://www.laskakit.cz/laskakit-espink-esp32-e-paper-pcb-antenna/?variantId=12419). Another piece to the puzzle was to be found in the Waveshare E-Paper Component page where in a big red warning box you can find:
 
-> The BUSY pin on the gdew0154m09 and **Waveshare 7.50in V2 models must be inverted** to prevent permanent display damage. Set the pin to inverted: true in the config.
+> The BUSY pin on the `gdew0154m09` and **Waveshare 7.50in V2 models must be inverted** to prevent permanent display damage. Set the pin to `inverted: true` in the config.
 
-The rest of the setup is pretty straightforward and you can just use the official Home Assistant and ESPHome documentation and you should be fine.
+With the `busy_pin` now set as `inverted` the rest of the setup is pretty straightforward and you can just use the official Home Assistant and ESPHome documentation and you should be fine. The display refreshes once every 5 minutes and it takes around 3 seconds to complete.
 
 ## Known Issues
 
