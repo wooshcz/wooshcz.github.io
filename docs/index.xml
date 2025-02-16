@@ -4,17 +4,17 @@
     <title>moravek.me</title>
     <link>https://moravek.me/</link>
     <description>Recent content on moravek.me</description>
-    <generator>Hugo -- 0.143.0</generator>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 05 Feb 2025 20:56:48 +0100</lastBuildDate>
     <atom:link href="https://moravek.me/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Laskakit E-Paper Kit With Home Assistant</title>
+      <title>LaskaKit E-Paper Kit With Home Assistant</title>
       <link>https://moravek.me/posts/laskakit-epaper-kit-with-home-assistant/</link>
       <pubDate>Wed, 05 Feb 2025 20:56:48 +0100</pubDate>
       <guid>https://moravek.me/posts/laskakit-epaper-kit-with-home-assistant/</guid>
       <description>&lt;p&gt;This is just a note to future self on how I made the LaskaKit E-Paper Kit work with Home Assistant and ESPHome.&lt;/p&gt;
-&lt;p&gt;Just a bit of context: The &lt;a href=&#34;https://www.laskakit.cz/laskakit-live-7-5-e-paper-stavebnice-s-wifi-pro---zivy-obraz-/?variantId=13529&#34;&gt;kit&lt;/a&gt; contains a e-Paper display and a custom ESP32-based board called ESPink which also comes pre-flashed with a custom firmware. You can build a code for this yourself and it&amp;rsquo;s available in &lt;a href=&#34;https://github.com/LaskaKit/ESPink&#34;&gt;GitHub&lt;/a&gt;. However I wasn&amp;rsquo;t interested in running the board with this FW as I wanted to connect it with my local Home Assistant instance.&lt;/p&gt;</description>
+&lt;p&gt;Just a bit of context: The &lt;a href=&#34;https://www.laskakit.cz/laskakit-live-7-5-e-paper-stavebnice-s-wifi-pro---zivy-obraz-/?variantId=13529&#34;&gt;kit&lt;/a&gt; I got my hands on contains a E-Paper display and a custom ESP32-based board called ESPink which also comes pre-flashed with a custom firmware. You can build a firmware for this board yourself and the code is available in &lt;a href=&#34;https://github.com/LaskaKit/ESPink&#34;&gt;GitHub&lt;/a&gt;. However I wasn&amp;rsquo;t interested in running the board with this custom FW as I wanted to connect it with my local Home Assistant instance.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Wifi Interference Analyzer</title>
