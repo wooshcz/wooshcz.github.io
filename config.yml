@@ -6,6 +6,7 @@ publishdir: "docs"
 enableInlineShortcodes: true
 enableRobotsTXT: true
 enableEmoji: true
+disableHugoGeneratorInject: true
 
 params:
   profileMode:
