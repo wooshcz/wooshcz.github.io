@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://moravek.me/posts/laskakit-epaper-kit-with-home-assistant/</loc>
-    <lastmod>2025-02-05T20:56:48+01:00</lastmod>
+    <loc>https://moravek.me/posts/departure-board-on-led-matrix-display/</loc>
+    <lastmod>2025-07-24T21:56:44+02:00</lastmod>
   </url><url>
     <loc>https://moravek.me/</loc>
-    <lastmod>2025-02-05T20:56:48+01:00</lastmod>
+    <lastmod>2025-07-24T21:56:44+02:00</lastmod>
   </url><url>
     <loc>https://moravek.me/posts/</loc>
+    <lastmod>2025-07-24T21:56:44+02:00</lastmod>
+  </url><url>
+    <loc>https://moravek.me/posts/laskakit-epaper-kit-with-home-assistant/</loc>
     <lastmod>2025-02-05T20:56:48+01:00</lastmod>
   </url><url>
     <loc>https://moravek.me/android/</loc>

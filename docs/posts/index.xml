@@ -6,8 +6,16 @@
     <description>Recent content in Posts on moravek.me</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 05 Feb 2025 20:56:48 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 24 Jul 2025 21:56:44 +0200</lastBuildDate>
     <atom:link href="https://moravek.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Departure Board on Led Matrix Display</title>
+      <link>https://moravek.me/posts/departure-board-on-led-matrix-display/</link>
+      <pubDate>Thu, 24 Jul 2025 21:56:44 +0200</pubDate>
+      <guid>https://moravek.me/posts/departure-board-on-led-matrix-display/</guid>
+      <description>&lt;p&gt;Recently I saw a cool project someone shared on the ESPHome Discord server that inspired me and I&amp;rsquo;ve decided that I&amp;rsquo;ll attempted to replicate it and build something similar. It was a LED matrix display based departure board connected to an Arduino that was displaying publicly available information about upcoming departures of the nearest public transport stop.&lt;/p&gt;
+&lt;p&gt;Since I live in Prague where we happen to have a publicly available data where you can fetch live information about location of trams/buses/metro and their delays I thought it should be pretty much doable. The public transport APIs are available at &lt;a href=&#34;https://api.golemio.cz/docs/openapi/index.htm&#34;&gt;Golemio API&lt;/a&gt;, you must register to get your API Key and then you&amp;rsquo;re good to go. The default rate-limit policies are pretty generous and completely sufficient for this home project.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>LaskaKit E-Paper Kit With Home Assistant</title>
       <link>https://moravek.me/posts/laskakit-epaper-kit-with-home-assistant/</link>
